@@ -11,9 +11,10 @@
     "dependencies": {
       "freertos":"*"
     },
+    
     "frameworks": "*",
     "platforms": "*",
     "build": {
-      "srcFilter": "-<Linux> -<UnitTests>" 
+      "srcFilter":"+<*>" "-<**/Linux/**> -<**/UnitTests/**>" 
     }
   }
