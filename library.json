@@ -18,8 +18,8 @@
       "srcFilter":"+<*> -<**/Linux/**> -<**/UnitTests/**>",
       "includeDir": ".",
       "flags": [
-        "-I ./c/Source/include/",
-        "-I ./c++/Source/include/"
+        "-I ./c/Source/include/*.hpp",
+        "-I c++/Source/include/*.hpp"
       ]
 
     }
