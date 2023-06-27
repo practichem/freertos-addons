@@ -12,5 +12,8 @@
       "freertos":"*"
     },
     "frameworks": "*",
-    "platforms": "*"
+    "platforms": "*",
+    "build": {
+      "srcFilter": "-<linux> -<UnitTests>" 
+    }
   }
