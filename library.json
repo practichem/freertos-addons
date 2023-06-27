@@ -14,6 +14,6 @@
     "frameworks": "*",
     "platforms": "*",
     "build": {
-      "srcFilter": "-<linux> -<UnitTests>" 
+      "srcFilter": "-<Linux> -<UnitTests>" 
     }
   }
